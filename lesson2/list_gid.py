@@ -17,3 +17,6 @@ print(long_list_of_cars[-1])  # Output: Infiniti
 print(long_list_of_cars[0:5])  # Output: ['Toyota', 'Honda', 'Ford', 'Chevrolet', 'BMW']
 
 print(long_list_of_cars[-5:])  # Output: ['Dodge', 'Ram', 'GMC', 'Lexus', 'Acura']
+
+
+# Write 10 python list methods and explain what they do.
