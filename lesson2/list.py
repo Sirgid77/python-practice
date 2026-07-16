@@ -61,3 +61,12 @@ print("The updated list is: ", correct_score)  # Output: [90, 85, 92, 88, 95, [7
 # Getting a sublist or nested list.
 
 print("The nested list zero index is: ", correct_score[5][0])
+
+# insert function
+
+correct_score.insert(2, 2000)  # Inserting an item at a specific index  
+print("The updated list after inserting an item is: ", correct_score)  # Output: [90, 85, 2000, 92, 88, 95, [75, 80, 85, 90, 95]]
+
+correct_score.remove(2000)  # Removing an item from the list
+print("The updated list after removing an item is: ", correct_score)  # Output:
+
