@@ -28,3 +28,36 @@ cars = ["Toyota", 40.7, "Honda", "Ford", "Chevrolet", "BMW", 200, True, False, [
 print("The first float in the list is: ", cars[1])
 
 print("The full car list is: ", cars)
+
+print("___________________________________" \
+"___________________________")
+# Modifiying Items in a list
+
+fruits[0] = "Coconut"
+
+print("The modified list is: ", fruits)  # Output: Coconut
+
+fruits[4] = "Pineapple"
+
+print("The modified list is: ", fruits)  # Output: Coconut
+
+# Built-in List Functions
+print("The length of the list is: ", len(fruits))  # Output: 5 (length of the list)
+
+# Max and min in list
+
+correct_score = [90, 85, 92, 88, 95]
+print("The maximum score is: ", max(correct_score))  # Output: 95
+print("The minimum score is: ", min(correct_score))  # Output: 85
+print("The sum of the scores is: ", sum(correct_score))  # Output: 450
+
+# Most popular list methods in Python are append(), insert(), remove(), pop(), clear(), index(), 
+# count(), sort(), reverse() and copy().
+
+more_scores = [75, 80, 85, 90, 95]
+
+correct_score.append(more_scores)  # Appending a list to another list
+print("The updated list is: ", correct_score)  # Output: [90, 85, 92, 88, 95, [75, 80, 85, 90, 95]]
+# Getting a sublist or nested list.
+
+print("The nested list zero index is: ", correct_score[5][0])
