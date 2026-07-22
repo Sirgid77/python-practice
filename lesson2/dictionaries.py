@@ -37,4 +37,24 @@ print("Ronaldo's position:", ronaldo["position"])  # Output: Mid
 ronaldo["country"] = "Spain"
 print("Ronaldo's country:", ronaldo["country"])  # Output: Spain
 
-# Next class: More of Dictionaries, if else statements, loops, and functions in Python.
+# Next class: More of Dictionaries, if else statements, loops, and functions/methods in Python.
+
+print(ronaldo)
+
+# Dictionary Methods
+print(ronaldo.keys())
+print(list(ronaldo.keys())[0])
+
+ronaldo_keys = ronaldo.keys()
+ronaldo_keys_list = list(ronaldo_keys)
+print(ronaldo_keys_list[2])  # Output: name
+
+# Dictionary Values
+ronaldo_values = ronaldo.values()
+print(ronaldo_values)
+
+# removing items
+print(ronaldo.pop("position"))
+
+print(ronaldo)
+
