@@ -24,7 +24,10 @@ visitor_age = int(visitor_age)
 # 18 - 20, should use teeengers website, while people from 20 and above will enter adult
 
 if visitor_age >= 50:
-     print("You are too old to be playing bet")
+    print("You are too old to be playing bet")
+    print("You are not eligible to use the website.")
+    print("Thank you for visiting my website, have a nice day!!!")
+
 elif visitor_age > 20:
     print("You can enter the adult website")
 elif visitor_age > 18:
@@ -32,6 +35,8 @@ elif visitor_age > 18:
 else:
     print("You are not eligible to use the website.")
 
+print("You are eligible to use the website.")    
 
 print("Thank you for visiting my website, have a nice day!!!")
+
 
